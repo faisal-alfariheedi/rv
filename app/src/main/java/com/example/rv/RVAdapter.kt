@@ -22,7 +22,13 @@ class RVAdapter(private val rv: ArrayList<person>, val cont: Context): RecyclerV
         holder.itemView.apply {
             var rvlisting= findViewById<CardView>(R.id.rvlisting)
             var ct= findViewById<TextView>(R.id.cardtitle)
-
+            var cd=findViewById<TextView>(R.id.carddesc)
+            var dd=findViewById<TextView>(R.id.cat)
+            var cc=findViewById<TextView>(R.id.date)
+            ct.text=rvv.name
+            cd.text=rvv.location
+            dd.text = rvv.mobile
+            cc.text = rvv.email
 
         }
     }

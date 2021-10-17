@@ -30,6 +30,29 @@
                 android:textAlignment="center"
                 android:textSize="28sp" />
 
+            <TextView
+                android:id="@+id/carddesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="author"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="category:"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="created:    updated:"
+                android:textAlignment="center"
+                android:textSize="16sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
